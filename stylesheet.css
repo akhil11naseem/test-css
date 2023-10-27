@@ -20,17 +20,10 @@
   );
 }
 
-.vfrc-launcher {
-  background: var(--rainbow) 0 0/100% 200%;
-  animation: a 2s linear infinite;
-}
-
-.vfrc-header {
-  background: var(--rainbow) 0 0/100% 200%;
-  animation: a 2s linear infinite;
-}
-
+.vfrc-header,
+.vfrc-launcher,
+.vfrc-footer .vfrc-button,
 .vfrc-user-response--row .vfrc-message {
   background: var(--rainbow) 0 0/100% 200%;
-  animation: a 2s linear infinite;
+  animation: a 2s linear infinite !important;
 }
