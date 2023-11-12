@@ -20,10 +20,8 @@
   );
 }
 
-.vfrc-header,
 .vfrc-launcher,
-.vfrc-footer .vfrc-button,
-.vfrc-user-response--row .vfrc-message {
+ .vfrc-message {
   background: var(--rainbow) 0 0/100% 200%;
   animation: a 2s linear infinite !important;
 }
